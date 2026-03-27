@@ -35,4 +35,8 @@
 
   /* Line Heights */
   --lh-100: 1.5rem;
+
+  /* Border Radiuses */
+  --br-100: 0.1875rem;
+  --br-200: 0.25rem;
 }
