@@ -10,4 +10,10 @@
   --c-neutral-600: #3c3c3c;
   --c-neutral-700: #0e0e0e;
   --c-neutral-800: #000000;
+
+  /* Font Families */
+  --f-smythe: "Smythe", system-ui;
+  --f-inter: "Inter", sans-serif;
+  --f-karla: "Karla", sans-serif;
+  --f-verdana: Verdana, Geneva, Tahoma, sans-serif;
 }
