@@ -15,5 +15,10 @@
     "url": "https://github.com/bluepersia/restaurant-app-4/issues"
   },
   "homepage": "https://github.com/bluepersia/restaurant-app-4#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0"
+  }
 }
