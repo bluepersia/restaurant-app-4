@@ -4,6 +4,8 @@
   --c-accent-200: #065f46;
   --c-neutral-100: #ffffff;
   --c-neutral-200: #ecfdf5;
+  --c-neutral-225: #dedede;
+  --c-neutral-250: #d2d2d2;
   --c-neutral-300: #bbbbbb;
   --c-neutral-400: #8b8b8b;
   --c-neutral-500: #757575;
@@ -41,5 +43,10 @@
   --br-200: 0.25rem;
 
   /* Spacing */
+  --s-200: 0.5rem;
+  --s-800: 2rem;
+  --s-1100: 2.75rem;
   --s-1200: 3rem;
+  --s-1300: 3.25rem;
+  --s-1700: 4.25rem;
 }
