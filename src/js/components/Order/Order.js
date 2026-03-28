@@ -37,6 +37,7 @@ export default function Order(root, cartContext, checkout) {
     if (e.target.dataset.remove) {
       cartContext.removeFromCart(Number(e.target.dataset.remove));
     }
+  }
   function handleCompleteClick() {
     checkout.style.display = "block";
   }
