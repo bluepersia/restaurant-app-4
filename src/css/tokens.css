@@ -39,4 +39,7 @@
   /* Border Radiuses */
   --br-100: 0.1875rem;
   --br-200: 0.25rem;
+
+  /* Spacing */
+  --s-1200: 3rem;
 }
