@@ -1,0 +1,33 @@
+.checkout {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+  max-width: 524px;
+  height: fit-content;
+  background-color: var(--c-neutral-100);
+  margin: auto;
+  padding: var(--s-1200) var(--s-600) var(--s-800);
+  font-family: var(--f-verdana);
+  box-shadow: 5px 5px 255px 0px rgba(0, 0, 0, 0.5);
+}
+
+.checkout__title {
+  text-align: center;
+  margin-bottom: var(--s-1200);
+  font-size: var(--fs-500);
+  font-weight: var(--fw-300);
+  color: var(--c-neutral-800);
+}
+
+.checkout__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--s-600);
+}
+
+.checkout__pay-btn {
+  margin-top: var(--s-1200);
+}

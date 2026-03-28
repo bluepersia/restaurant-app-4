@@ -1,0 +1,9 @@
+.input {
+  padding: var(--s-400) var(--s-600);
+  font-size: var(--fs-300);
+  font-family: var(--f-verdana);
+  font-weight: var(--fw-200);
+  color: var(--c-neutral-500);
+  border: solid 1.3px #757575;
+  border-radius: var(--br-200);
+}
