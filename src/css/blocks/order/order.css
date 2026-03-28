@@ -1,0 +1,27 @@
+.order {
+  padding: var(--s-1100) var(--s-1300);
+}
+
+.order__title {
+  text-align: center;
+  margin-bottom: var(--s-1600);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--c-neutral-800);
+}
+
+.order__summary {
+  margin-bottom: var(--s-1300);
+}
+
+.order__summary-list {
+  padding-bottom: var(--s-800);
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--s-600);
+  border-bottom: solid 2px var(--c-neutral-650);
+}
+
+.order__total {
+  padding-top: var(--s-400);
+}

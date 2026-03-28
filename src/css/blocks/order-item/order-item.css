@@ -1,0 +1,27 @@
+.order-item {
+  display: flex;
+  align-items: center;
+}
+
+.order-item__title {
+  margin-right: var(--s-300);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-200);
+  color: var(--c-neutral-800);
+}
+
+.order-item__remove-btn {
+  font-family: var(--f-verdana);
+  font-size: var(--fs-100);
+  font-weight: inherit;
+  color: var(--c-neutral-300);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.order-item__price {
+  margin-left: auto;
+  font-size: var(--fs-300);
+  color: var(--c-neutral-800);
+}
