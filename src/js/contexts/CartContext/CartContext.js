@@ -15,5 +15,6 @@ export default function CartContext() {
 
   return {
     addToCart,
+    cartChanged,
   };
 }

@@ -1,0 +1,19 @@
+.btn {
+  font-family: var(--f-verdana);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-300);
+  text-align: center;
+  color: var(--c-neutral-100);
+  background-color: var(--c-accent-100);
+  width: 100%;
+  padding: var(--s-500) 0;
+  border: none;
+  border-radius: var(--br-100);
+  cursor: pointer;
+  transition: filter 300ms;
+}
+
+.btn:hover,
+.btn:focus {
+  filter: brightness(125%);
+}

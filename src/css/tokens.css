@@ -10,6 +10,7 @@
   --c-neutral-400: #8b8b8b;
   --c-neutral-500: #757575;
   --c-neutral-600: #3c3c3c;
+  --c-neutral-650: #393333;
   --c-neutral-700: #0e0e0e;
   --c-neutral-800: #000000;
 
@@ -44,9 +45,14 @@
 
   /* Spacing */
   --s-200: 0.5rem;
+  --s-300: 0.75rem;
+  --s-400: 1rem;
+  --s-500: 1.25rem;
+  --s-600: 1.5rem;
   --s-800: 2rem;
   --s-1100: 2.75rem;
   --s-1200: 3rem;
   --s-1300: 3.25rem;
+  --s-1600: 4rem;
   --s-1700: 4.25rem;
 }
