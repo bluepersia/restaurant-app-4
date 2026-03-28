@@ -65,13 +65,20 @@
                 <p class="order-item__price">$12</p>
               </li>
             </ul>
-            <div class="order-item order__total">
+            <div class="order-item order__total" aria-live="polite">
               <h3 class="order-item__title">Total price:</h3>
               <p class="order-item__price">$26</p>
             </div>
           </div>
 
-          <button class="btn" data-complete>Complete order</button>
+          <button
+            class="btn"
+            data-complete
+            aria-expanded="false"
+            aria-haspopup="dialog"
+          >
+            Complete order
+          </button>
         </div>
       </section>
     </main>
