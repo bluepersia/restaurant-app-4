@@ -44,6 +44,33 @@
           <ul class="menu__list reset-list" id="menu-list"></ul>
         </div>
       </section>
+
+      <section class="order">
+        <div class="order__inner container">
+          <h2 class="order__title">Your order</h2>
+
+          <div class="order__summary">
+            <ul class="order__summary-list reset-list">
+              <li class="order-item">
+                <h3 class="order-item__title">Pizza</h3>
+                <button class="order-item__remove-btn">remove</button>
+                <p class="order-item__price">$14</p>
+              </li>
+              <li class="order-item">
+                <h3 class="order-item__title">Beer</h3>
+                <button class="order-item__remove-btn">remove</button>
+                <p class="order-item__price">$12</p>
+              </li>
+            </ul>
+            <div class="order-item">
+              <h3 class="order-item__title">Total price:</h3>
+              <p class="order-item__price">$26</p>
+            </div>
+          </div>
+
+          <button class="btn" data-complete>Complete order</button>
+        </div>
+      </section>
     </main>
 
     <script src="./src/js/index.js" type="module"></script>
