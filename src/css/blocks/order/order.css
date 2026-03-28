@@ -1,5 +1,6 @@
 .order {
   padding: var(--s-1100) var(--s-1300);
+  display: none;
 }
 
 .order__title {
