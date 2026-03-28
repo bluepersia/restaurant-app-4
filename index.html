@@ -72,6 +72,43 @@
       </section>
     </main>
 
+    <section class="checkout">
+      <h2 class="checkout__title">Enter card details</h2>
+      <form class="checkout__form">
+        <label for="name" class="sr-only">Name</label>
+        <input
+          type="text"
+          class="input"
+          id="name"
+          placeholder="Enter your name"
+          required
+          name="name"
+        />
+
+        <label for="card" class="sr-only">Card Number</label>
+        <input
+          type="text"
+          class="input"
+          id="card"
+          placeholder="Enter card number"
+          required
+          name="card"
+        />
+
+        <label for="cvv" class="sr-only">CVV</label>
+        <input
+          type="number"
+          class="input"
+          id="cvv"
+          placeholder="Enter CVV"
+          required
+          name="cvv"
+        />
+
+        <button type="submit" class="btn checkout__pay-btn">Pay</button>
+      </form>
+    </section>
+
     <script src="./src/js/index.js" type="module"></script>
   </body>
 </html>
