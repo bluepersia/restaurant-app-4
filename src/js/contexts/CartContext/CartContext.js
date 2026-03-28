@@ -1,4 +1,4 @@
-import { addItem } from "./utils.js";
+import { addItem, removeItem } from "./utils.js";
 
 export default function CartContext() {
   let state = {
@@ -13,8 +13,15 @@ export default function CartContext() {
     cartChanged.forEach((el) => el(state.cart));
   }
 
+  function removeFromCart(id) {
+    state = removeItem(state, id);
+
+    cartChanged.forEach((el) => el(state.cart));
+  }
+
   return {
     addToCart,
+    removeFromCart,
     cartChanged,
   };
 }

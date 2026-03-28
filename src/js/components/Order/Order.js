@@ -6,11 +6,17 @@ export default function Order(root, cartContext, checkout) {
   const totalEl = root.querySelector("[data-total]");
   const completeBtn = root.querySelector("[data-complete]");
 
+  listEl.addEventListener("click", handleListClick);
+
   cartContext.cartChanged.push(handleCartChanged);
 
   completeBtn.addEventListener("click", handleCompleteClick);
 
   function handleCartChanged(cart) {
+    if (cart.length <= 0) {
+      root.style.display = "none";
+      return;
+    }
     root.style.display = "block";
     const order = generateOrder(cart, menuData);
 
@@ -27,6 +33,10 @@ export default function Order(root, cartContext, checkout) {
     totalEl.textContent = `$${total}`;
   }
 
+  function handleListClick(e) {
+    if (e.target.dataset.remove) {
+      cartContext.removeFromCart(Number(e.target.dataset.remove));
+    }
   function handleCompleteClick() {
     checkout.style.display = "block";
   }
