@@ -4,11 +4,13 @@
 }
 
 .order--submitted {
-  background-color: var(--c-neutral-200);
   color: var(--c-accent-200);
-  padding: var(--s-1300) var(--s-1300);
   text-align: center;
   margin-top: var(--s-1100);
+}
+.order--submitted .order__inner {
+  padding: var(--s-1300) var(--s-1300);
+  background-color: var(--c-neutral-200);
 }
 
 .order--submitted .order__submitted {
